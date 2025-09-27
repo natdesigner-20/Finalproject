@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet's Market</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo_box">
+            <img src="imag-vid/Logo.jpg" alt="Logo con gato y perro" class="logo">
+        </div>
+        <nav class="nav">
+            <ul class="list">
+                <li class="list_item"><a href="" class="enlace">Inicio</a></li>
+                <li class="list_item"><a href="" class="enlace">Productos</a></li>
+                <li class="list_item"><a href="" class="enlace">Eventos</a></li>
+                <li class="list_item"><a href="" class="enlace">Compras</a></li>
+            </ul>
+    </header>
+    <main>
+        <div class="inicio_box">
+            <div class="inicio_section">
+                <h1 class="inicio_titulo">¿Quiénes somos?</h1>
+                <p class="inicio_texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, repudiandae vel aliquid dolores ipsam libero fugiat minus? Dignissimos sapiente omnis assumenda id eius vitae, impedit tempora, minima facere architecto voluptatem.</p>
+                <div class="inicio_img">
+                    <video autoplay controls muted>
+                        <source src="imag-vid/Publicidad.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="inicio_section">
+                <h1 class="inicio_titulo">¿Dónde puedes encontrarnos?</h1>
+                <p class="inicio_texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis repellat dolorum modi ad? Perspiciatis voluptatum nobis mollitia, quisquam molestias perferendis alias nesciunt eius minus earum officiis maxime. Maxime, qui ab?</p>
+                <div class="inicio_img">
+                    <img src="imag-vid/Lugar.jpg" alt="Foto de tienda de mascotas">
+                </div>
+            </div>
+        </div>
+        <h1 class="productos_titulo">Productos</h1>
+        <div class="productos_box"> 
+            <div class="productos_item">
+                <img src="imag-vid/Collares.jpg" alt="Collares para gatos y perros" class="productos_foto">
+                <h2 class="productos_nombre">Collares</h2>
+                <h2 class="productos_precio">Desde $1.000,00 en adelante</h2>
+            </div>
+            <div class="productos_item">
+                <img src="imag-vid/Cepillos.jpg" alt="Productos de aseo para mascotas" class="productos_foto">
+                <h2 class="productos_nombre">Aseo para mascotas</h2>
+                <h2 class="productos_precio">Desde $1.000,00 en adelante</h2>
+            </div>
+            <div class="productos_item">
+                <img src="imag-vid/Arenas.jpg" alt="Arenas para gato" class="productos_foto">
+                <h2 class="productos_nombre">Arena para gato</h2>
+                <h2 class="productos_precio">Desde $1.000,00 en adelante</h2>
+            </div>
+            <div class="productos_item">
+                <img src="imag-vid/Comida.jpg" alt="Comida para perros y gatos" class="productos_foto">
+                <h2 class="productos_nombre">Concentrado para tus mascotas</h2>
+                <h2 class="productos_precio">Desde $1.000,00 en adelante</h2>
+            </div>
+            <div class="productos_item">
+                <img src="imag-vid/Juguetes.jpg" alt="Juguetes para perros" class="productos_foto">
+                <h2 class="productos_nombre">Juguetes para perros</h2>
+                <h2 class="productos_precio">Desde $1.000,00 en adelante</h2>
+            </div>
+            <div class="productos_item">
+                <img src="imag-vid/Juguetesg.jpg" alt="Juguetes para gatos" class="productos_foto">
+                <h2 class="productos_nombre">Juguetes para gatos</h2>
+                <h2 class="productos_precio">Desde $1.000,00 en adelante</h2>
+            </div>
+        </div>
+        <div class="eventos_box">
+            <h1 class="eventos_titulo">Eventos 2024</h1>
+            <div class="eventos_item">
+                <h2 class="eventos_nombre">Selección Colombia</h2>
+                <video src="imag-vid/Seleccion.mp4" autoplay muted controls class="eventos_foto"></video>
+                <h2 class="eventos_texto">Apoyemos a la selección colombiana este 30 de Novimebre</h2>
+            </div>
+            <div class="eventos_item">
+                <h2 class="eventos_nombre">Navidad para tus mascotas</h2>
+                <img src="imag-vid/Navidad.jpg" alt="Gato con fondo navideño" class="eventos_foto">
+                <h2 class="eventos_texto">Trae a tu peludo para tomarse una foto en nuestro set. Participa por una ancheta navideña</h2>
+            </div>
+        </div>
+    </main>
+    <div class="compras_box">
+        <h3 class="compras_titulo">Dejanos saber de ti para brindarte la mejor asesoria</h3>
+        <form>
+            <fieldset class="form1">
+                <legend> Datos personales </legend>
+                <label for="inputName">Nombre:</label>
+                <input type="text" name="inputName" id="inputName" placeholder="Maria Pérez">    
+                <label for="inputNumber">Celular:</label>
+                <input type="number" name="inputNumber" id="inputNumber" placeholder="3106007080" maxlength="10" minlength="10">
+                <label for="inputEmail">Email:</label>
+                <input type="email" name="inputEmail" id="inputEmail" placeholder="name2024@email.com">
+                <label for="inputEmail">Email:</label>
+                <input type="text" name="inputDireccion" id="inputDireccion" placeholder="Calle 15 #20 A 30">
+                </fieldset>
+                <fieldset class=" form1">
+                <legend> Describe los productos que quieres llevar </legend>
+                <label for="inputque">Quisiera comprar...</label>
+                <textarea name="inputque" id="inputque" cols="20"  rows="5" placeholder="Un collar, un plato de comida..."></textarea>
+            </fieldset>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+</body>
+<footer class="footer">
+    <span class="Autora">Creado por Natalia Bautista 2024</span>
+    <span class="Contacto">+57 (310) 609 6869</span>
+</footer>
+</html>
